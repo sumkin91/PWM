@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Projects/PLIS/PWM/simulation/qsim
+vhard_block
+Z1 !s110 1710683526
+!i10b 1
+!s100 oBa_51ZPYZblG0oSJ`EHF0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR?F6ICKBfV2kB^<o29^Uh1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1710683525
+Z5 8PWM.vo
+Z6 FPWM.vo
+!i122 36
+L0 2801 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1710683526.000000
+Z9 !s107 PWM.vo|
+Z10 !s90 -work|work|PWM.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vPWM
+R1
+!i10b 1
+!s100 C9NKTC`e_oko2KA8zYD[B1
+R2
+IXTAbJ^oA@8YkJe^6;Wn3`0
+R3
+R0
+R4
+R5
+R6
+!i122 36
+L0 32 2768
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@p@w@m
+vPWM_vlg_vec_tst
+R1
+!i10b 1
+!s100 JT1E8:OMA>bWYfAKScAFm1
+R2
+IiZagB]M4DCI=XX<bf;kj`0
+R3
+R0
+w1710683524
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 37
+L0 30 293
+R7
+r1
+!s85 0
+31
+R8
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12
+n@p@w@m_vlg_vec_tst

@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at PWM.v(27): always construct contains both blocking and non-blocking assignments File: D:/Projects/PLIS/PWM/PWM.v Line: 27
+Warning (10268): Verilog HDL information at PWM.v(33): always construct contains both blocking and non-blocking assignments File: D:/Projects/PLIS/PWM/PWM.v Line: 33
+Warning (10268): Verilog HDL information at PWM.v(41): always construct contains both blocking and non-blocking assignments File: D:/Projects/PLIS/PWM/PWM.v Line: 41
+Warning (10268): Verilog HDL information at PWM.v(47): always construct contains both blocking and non-blocking assignments File: D:/Projects/PLIS/PWM/PWM.v Line: 47
+Warning (10268): Verilog HDL information at PWM.v(61): always construct contains both blocking and non-blocking assignments File: D:/Projects/PLIS/PWM/PWM.v Line: 61

@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Clock'
+Slack : -4.530
+TNS   : -68.156
+
+Type  : Slow 1200mV 85C Model Hold 'Clock'
+Slack : 0.357
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -20.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'WE_impuls_high'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'WE_impuls_low'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'WE_period_high'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'WE_period_low'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Setup 'Clock'
+Slack : -3.884
+TNS   : -58.305
+
+Type  : Slow 1200mV 0C Model Hold 'Clock'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -20.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'WE_impuls_high'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'WE_impuls_low'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'WE_period_high'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'WE_period_low'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Fast 1200mV 0C Model Setup 'Clock'
+Slack : -2.571
+TNS   : -38.337
+
+Type  : Fast 1200mV 0C Model Hold 'Clock'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Clock'
+Slack : -3.000
+TNS   : -21.508
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'WE_period_low'
+Slack : -3.000
+TNS   : -11.847
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'WE_impuls_high'
+Slack : -3.000
+TNS   : -11.840
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'WE_impuls_low'
+Slack : -3.000
+TNS   : -11.840
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'WE_period_high'
+Slack : -3.000
+TNS   : -11.840
+
+------------------------------------------------------------

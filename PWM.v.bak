@@ -1,0 +1,68 @@
+module PWM(
+	input CLK;
+	input period_low[7:0],
+	input period_high[7:0],
+	input WE_period_low,
+	input WE_period_high,
+	input impuls_low[7:0],
+	input impuls_high[7:0],
+	input WE_impuls_low,
+	input WE_impuls_high,
+	input WE_enable_pwm,
+	input WE_disable_pwm,
+	output out_pwm;
+);
+
+wire period[15:0], current_period[15:0];
+wire impuls[15:0], current_impuls[15:0];
+wire enable_pwm;
+
+always@(negedge WE_period_low)
+begin
+	period[7:0] = period_low;
+end
+
+always@(negedge WE_period_high)
+begin
+	period[15:8] = period_high;
+end
+
+always@(negedge WE_impuls_low)
+begin
+	impuls[7:0] = impulse_low;
+end
+
+always@(negedge WE_impuls_high)
+begin
+	impuls[15:8] = impuls_high;
+end
+
+always@(*)
+begin
+	if(WE_disable_pwm) 
+	begin
+		current_period = 0;
+		current_impuls = 0;
+		enable_pwm = false;
+	else if(WE_enable_pwm) enable_pwm = true;
+end
+
+always(posedge CLK)
+begin
+	if(impuls_current <= impuls) begin
+		impuls_current = impuls_current + 1;
+		out_pwm = 1
+	end
+	else out_pwm = 0;
+end
+
+always(posedge CLK)
+begin
+	if(period_current <= period) period_current = period_current + 1;
+	else begin
+			impuls_current = 0;
+			period_current = 0;
+	end
+end
+
+endmodule;
